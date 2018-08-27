@@ -10,4 +10,4 @@ The Rules of This project is :
 use your [github](https://github.com/login) account to loging and make a respository and start your own challenge and join us. 
 also dont forget to call me in _telegram_ with username of [Creed](https://t.me/Creed) .
 
-`make me glad with Giving Star and following me ;)`
+***make me glad with Giving Star and following me ;)***
