@@ -1,0 +1,207 @@
+
+@font-face{
+	font-family: BYekan;
+	src: url(./Yekan.ttf);
+}
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@-ms-viewport {
+  width: device-width ;
+}
+@media only screen and (min-width: 400px) {
+    .main-border {
+        border-style: hidden;
+        border-radius: 20px;
+        margin: -20px 0px 0px 20px;
+        width: 750px;
+        height: 566px;
+        max-width: 750px;
+        max-height: 566px;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 30%;
+        background-color: white;
+        box-shadow: 0 22px 65px 0 rgba(0,0,0,.25);
+    }
+    
+    body {
+    	background-color: #e1e4e8;
+    }
+}
+@media only screen and (min-width: 401px) {
+    .main-border {
+        border-style: hidden;
+        border-radius: 20px;
+        margin: -20px 0px 0px 20px;
+        width: 750px;
+        height: 566px;
+        max-width: 750px;
+        max-height: 566px;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 30%;
+        background-color: white;
+        box-shadow: 0 22px 65px 0 rgba(0,0,0,.25);
+    }
+    #babat, #mablagh, #About-What, #howmuch-toman-num, #howmuch-toman-text{
+        top: 30%!important;
+    }
+     
+    body {
+    	background-color: #e1e4e8;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .main-border {
+        border-style: hidden;
+        border-radius: 20px;
+        margin: -100px 0px 0px 100px;
+        width: 750px;
+        height: 566px;
+        max-width: 750px;
+        max-height: 566px;
+        position: absolute;
+        left: 24%;
+        right: 26%;
+        top: 30%;
+        background-color: white;
+        box-shadow: 0 22px 65px 0 rgba(0,0,0,.25);
+    }
+    body {
+    	background-color: #e1e4e8; /*#e1e4e8*/
+    }
+
+}
+
+
+.blue-border{
+    background-image: linear-gradient(-135deg,#21254e,#2b4a83);
+    position: relative;
+    width: 40%;
+    left: 70%;
+    height: 100%;
+    max-width: 50%;
+    border-radius: 0px 20px 20px 0px;
+    max-height: 100%;
+}
+
+.mablagh-border{
+	position: absolute;
+	margin: auto;
+	border: 1px solid gray;
+	border-radius: 40px;
+	width: 50%;
+	height: 10%;
+	left: 8%;
+	top: 80%;
+}
+
+.gray-mablagh-border {
+	position: absolute;
+	left: 70%;
+	background: #dbdee0;
+	border: hidden;
+	border-radius: 0px 40px 40px 0px;
+	width: 30%;
+	height: 100%;
+}
+.babat-border{
+	position: absolute;
+	margin: auto;
+	border: 1px solid gray;
+	border-radius: 40px;
+	width: 50%;
+	height: 10%;
+	left: 8%;
+	top: 60%;
+}
+.gray-babat-border {
+	position: absolute;
+	left: 70%;
+	background: #dbdee0;
+	border: hidden;
+	border-radius: 0px 40px 40px 0px;
+	width: 30%;
+	height: 100%;
+}
+.pay-border {
+	position: absolute;
+	margin: auto;
+	border: hidden;
+	background: #14ef44;
+	border-radius: 10px;
+	width: 50%;
+	height: 10%;
+	left: 8%;
+	top: 20%;
+}
+#pay-msg{
+	position: relative;
+	margin: auto;
+	text-align: center;
+	top: 20%;
+	font: 24px BYekan;
+	color: white;
+}
+#About-What {
+	position: absolute;
+	margin: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: BYekan;
+	font-size: 20px;
+    text-align: center;
+	top: 15%;
+	left: 10%;
+}
+#howmuch-toman-num{
+	position: absolute;
+	margin: auto;
+	font-family: BYekan;
+	font-size: 20px;
+    left: 40%;
+	top: 15%;
+}
+#howmuch-toman-text{
+	position: absolute;
+	margin: auto;
+	font-family: BYekan;
+	font-size: 20px;
+	bottom: 30%;
+	left: 28%;
+}
+#mablagh{
+	text-align: center;
+	position: relative;
+	margin: auto;
+	font-family: BYekan;
+	font-size: 20px;
+	top: 20%;
+}
+#babat{
+	text-align: center;
+	position: relative;
+	margin: auto;
+	font-family: BYekan;
+	font-size: 20px;
+	top: 20%;
+}
+#CGImage {
+    width: 60%;
+    position: relative;
+    top: 30px;
+    left: 20%;
+}
+#CG-text {
+    position: relative;
+    top: 14%;
+    color: white;
+    font-family: BYekan;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 3px 6px black;
+}
